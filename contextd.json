@@ -1,17 +1,17 @@
 {
-  "version": "0.0.1",
+  "version": "0.3.0",
   "description": "Portable, vendor-neutral context for AI (contextd)",
   "homepage": "https://github.com/abyssmemes/contextverse",
   "license": "BUSL-1.1",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/abyssmemes/contextverse/releases/download/v0.0.1/contextd_0.0.1_windows_amd64.zip",
-      "hash": "dc9f63127e5a49c76f54900750527aab4cdaab02bdc20458770accf6a9049add",
+      "url": "https://github.com/abyssmemes/contextverse/releases/download/v0.3.0/contextd_0.3.0_windows_amd64.zip",
+      "hash": "f60a395420886df07e92e8ac57b0d02a0a4c2b1ca89866a02a479fe61880c41d",
       "bin": "contextd.exe"
     },
     "arm64": {
-      "url": "https://github.com/abyssmemes/contextverse/releases/download/v0.0.1/contextd_0.0.1_windows_arm64.zip",
-      "hash": "d3d0335ccff9716e96b5fd9f6d86310cf152c724f8ae1b270acec4869f1eb1b2",
+      "url": "https://github.com/abyssmemes/contextverse/releases/download/v0.3.0/contextd_0.3.0_windows_arm64.zip",
+      "hash": "6b220e2cf0bcab133054eb39febf07e0ed65194eb5004950fd2c5077aac7e8cd",
       "bin": "contextd.exe"
     }
   },
