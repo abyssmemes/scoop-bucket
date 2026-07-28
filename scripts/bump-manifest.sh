@@ -7,7 +7,7 @@ set -euo pipefail
 
 TAG="${1:-}"
 [[ -n "$TAG" ]] || { echo "usage: $0 <tag>  (e.g. v0.0.2)" >&2; exit 1; }
-REPO="${CONTEXTVERSE_REPO:-abyssmemes/contextverse}"
+REPO="${CONTEXTVERSE_REPO:-orkcom-tech/contextverse}"
 VER="${TAG#v}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 MANIFEST="${ROOT}/contextd.json"

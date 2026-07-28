@@ -1,9 +1,9 @@
 # Scoop bucket for ContextVerse
 
-Own Scoop bucket — not submitted to the main Scoop extras. Parallel to [`homebrew-tap`](https://github.com/abyssmemes/homebrew-tap).
+Own Scoop bucket — not submitted to the main Scoop extras. Parallel to [`homebrew-tap`](https://github.com/orkcom-tech/homebrew-tap).
 
 ```powershell
-scoop bucket add contextverse https://github.com/abyssmemes/scoop-bucket
+scoop bucket add contextverse https://github.com/orkcom-tech/scoop-bucket
 scoop install contextd
 ```
 
@@ -11,7 +11,7 @@ When a GitHub organization exists, this repo can move there (e.g. `contextverse/
 
 ## Updating the manifest after a release
 
-1. Publish a `v*` tag on [`contextverse`](https://github.com/abyssmemes/contextverse) (GoReleaser builds Windows `.zip` + `checksums.txt`).
+1. Publish a `v*` tag on [`contextverse`](https://github.com/orkcom-tech/contextverse) (GoReleaser builds Windows `.zip` + `checksums.txt`).
 2. Refresh `contextd.json` version, URLs, and hashes:
 
 ```bash
